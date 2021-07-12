@@ -1,0 +1,132 @@
+/* ------------------- GLOBAL --------------------- */
+
+* {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+body {
+  margin: 2rem 5rem;
+}
+
+/* ------------------- NAVBAR --------------------- */
+
+nav {
+  display: flex;
+  justify-content: flex-start;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  margin: auto;
+}
+
+nav img {
+  width: 2rem;
+}
+
+.iconhome {
+  width: 3rem;
+}
+
+h1 {
+  font-size: 1rem;
+  font-weight: 500;
+  margin: auto 2rem;
+  text-transform: uppercase;
+}
+
+h1.active {
+  font-size: 1rem;
+  font-weight: 500;
+  margin: auto 2rem;
+  text-transform: uppercase;
+  border-bottom: 2px solid rgb(247, 164, 39);
+}
+
+.menu {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.infos {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 25em;
+  ;
+  box-shadow: 2px 2px 2px rgb(221, 218, 218), -2px -2px 2px rgb(221, 218, 218);
+  align-items: center;
+  margin-top: 5em;
+}
+
+.infos h3 {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.text {
+  padding-bottom: 1em;
+}
+
+.form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form p {
+  padding-bottom: 0.5em;
+  padding-top: 1em;
+}
+
+form input {
+  width: 20em;
+  height: 2em;
+}
+
+form .button {
+  background-color: rgb(71, 149, 218);
+  border: 1px white groove;
+  border-radius: 10px;
+  color: white;
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+  width: 8em;
+  height: 2em;
+  font-size: 1rem;
+}
+
+form .button:active {
+  transform: scale(0.9);
+}
+
+.message {
+  color: rgb(238, 71, 85);
+}
+
+.erreur {
+  color: rgb(238, 71, 85);
+  margin-bottom: 0.5em;
+}
