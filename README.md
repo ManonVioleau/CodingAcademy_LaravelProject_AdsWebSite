@@ -42,7 +42,7 @@ Clone the repository
 
 Switch to the repo folder
 
-    cd C-DEV-120-FR-1-1-freeads-benoit1.spriet
+    cd CodingAcademy_LaravelProject_AdsWebSite
 
 Install all the dependencies using composer
 
@@ -64,8 +64,8 @@ You can now access the server at http://localhost:8000
 
 **TL;DR command list**
 
-    git clone git@github.com:EpitechIT2020/C-DEV-120-FR-1-1-freeads-benoit1.spriet.git
-    cd C-DEV-120-FR-1-1-freeads-benoit1.spriet
+    git clone git@github.com:ManonVioleau/CodingAcademy_LaravelProject_AdsWebSite.git
+    cd CodingAcademy_LaravelProject_AdsWebSite
     composer install
     cp .env.example .env
     
