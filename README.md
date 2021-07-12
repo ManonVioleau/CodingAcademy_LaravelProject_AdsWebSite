@@ -38,7 +38,7 @@ Please check the official laravel installation guide for server requirements bef
 
 Clone the repository
 
-    git clone git@github.com:EpitechIT2020/C-DEV-120-FR-1-1-freeads-benoit1.spriet.git
+    git clone git@github.com:ManonVioleau/CodingAcademy_LaravelProject_AdsWebSite.git
 
 Switch to the repo folder
 
